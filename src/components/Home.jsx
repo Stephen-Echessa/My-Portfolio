@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import logo from '../assets/logo.png'
 
@@ -59,10 +60,18 @@ const Home = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaTwitter className='cursor-pointer hover:text-blue-400' />
-            <FaGithub className='cursor-pointer hover:text-gray-600' size={20} />
-            <FaInstagram className='cursor-pointer hover:text-red-400' size={20} />
-            <FaLinkedin className='cursor-pointer hover:text-blue-400' size={20} />
+            <a href="https://x.com/al_bi_e?t=7D47Q67f6hwmHTK7TtU3TA&s=09" target="_blank" rel="noopener noreferrer">
+              <FaXTwitter className='cursor-pointer hover:text-blue-400' size={20}/>
+            </a>
+            <a href="https://github.com/albanusCode" target="_blank" rel="noopener noreferrer">
+              <FaGithub className='cursor-pointer hover:text-gray-600' size={20} />
+            </a>
+            <a href="https://www.instagram.com/a.l.b.i.e_?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className='cursor-pointer hover:text-red-400' size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/albanus-mutua-67a3a021b" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className='cursor-pointer hover:text-blue-400' size={20} />
+            </a>
           </div>
         </div>
       </div>
