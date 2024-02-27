@@ -2,7 +2,8 @@ import Home from './components/Home';
 import Work from './components/Work';
 import Sidenav from './components/Sidenav'
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Work />
       <Projects />
       <Contact />
+      <Footer />
     </>
   )
 }

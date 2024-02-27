@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaDiscord } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import logo from '../assets/logo.png'
 
@@ -19,7 +19,7 @@ const Home = () => {
   const greeting = getGreeting();
 
   return (
-    <div id='main'>
+    <div id='main' className='max-w-[1130px]'>
       <div className='md:hidden py-4 md:p-2 w-[100%] bg-gray-700 fixed z-50'>
         <img src={logo} 
             alt=""
@@ -66,8 +66,8 @@ const Home = () => {
             <a href="https://github.com/albanusCode" target="_blank" rel="noopener noreferrer">
               <FaGithub className='cursor-pointer hover:text-gray-600' size={20} />
             </a>
-            <a href="https://www.instagram.com/a.l.b.i.e_?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className='cursor-pointer hover:text-red-400' size={20} />
+            <a href="https://discord.com/users/1028542055493935145" target="_blank" rel="noopener noreferrer">
+              <FaDiscord className='cursor-pointer hover:text-red-400' size={20} />
             </a>
             <a href="https://www.linkedin.com/in/albanus-mutua-67a3a021b" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className='cursor-pointer hover:text-blue-400' size={20} />
