@@ -4,7 +4,7 @@ import Call from '../assets/call.svg'
 
 const Contact = () => {
   return (
-    <section class="relative max-w-[1130px] m-auto md:pl-20 p-4 py-4">
+    <section id='contact' class="relative max-w-[1130px] m-auto md:pl-20 p-4 py-4">
         <div class="relative container px-4 mx-auto">
             <div class="max-w-7xl mx-auto">
             <div class="max-w-2xl mb-24">
