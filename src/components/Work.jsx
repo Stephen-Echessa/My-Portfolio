@@ -3,19 +3,25 @@ import WorkItem from './WorkItem';
 
 const data = [
     {
-        year: 'Nov, 2023',
-        title: 'Software Developer',
-        duration: '3 months',
-        details: 'During my tenure at EastBerry Limited, I held an entry-level position in front-end development, contributing remotely for a brief yet impactful period. In this role, I gained valuable experience in crafting user-facing interfaces and implementing front-end solutions while collaborating effectively within a remote team environment. This opportunity sharpened my skills in web development and honed my ability to adapt to diverse work settings, solidifying my commitment to continuous growth and proficiency in front-end technologies.'
+        year: 'August, 2024',
+        title: 'NLP Engineer',
+        duration: 'Present',
+        details: 'During my internship at Ebikes Africa, I contributed to the development of an AI-driven WhatsApp chatbot, enhancing customer interaction and support capabilities. Additionally, I conducted extensive research and provided strategic recommendations on emerging technologies and tools, accelerating the project’s completion by 20% and improving overall team productivity'
     
     },
     {
-        year: 'May, 2023',
-        title: 'Internship',
+        year: 'July, 2024',
+        title: 'Machine Learning Engineer',
         duration: '3 months',
-        details: 'During my internship at Jeilo Collections, I focused on developing an efficient inventory management system tailored to the company\'s needs. Through analysis and collaboration, I designed and implemented a user friendly solution that optimized inventory tracking, reduced discrepancies, and facilitated seamless replenishment cycles, ultimately contributing to the organization\'s operational effectiveness and success.'
+        details: 'During my tenure at Omdena, I collaborated remotely with experienced machine learning engineers and data scientists, significantly enhancing my expertise in advanced machine learning and data science methodologies. Developed high-accuracy deep learning models using ConvLSTM, achieving an R² score of 0.87, to improve weather forecasting for Tanzania, enabling more precise predictions and potentially benefiting millions in agricultural and disaster preparedness sectors.'
     
     },
+    {
+        year: 'June, 2023',
+        title: 'Data Analyst',
+        duration: '3 months',
+        details: 'During my internship at the Geothermal Development Company of Kenya, I developed data-driven solutions to boost vehicle allocation to Geothermal sites, resulting in an increase in fleet availability from 66% to 82%. Furthermore, conducted in-depth cost analysis with Pandas to optimize vehicle-related expenditures including acquisition costs, maintenance expenses, and fuel consumption patterns, saving KES 1.5 million in the monthly budget. Utilized advanced data visualization techniques to develop interactive dashboards and reports, facilitating informed decision-making and seamless operation.'
+    }
 ]
 const Work = () => {
   return (

@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
                     <div>
                     <span class="sm:text-lg text-gray-500">Email</span>
-                    <span class="block text-lg sm:text-2xl font-semibold text-gray-900">albanusmm20@gmail.com</span>
+                    <span class="block text-lg sm:text-2xl font-semibold text-gray-900">stevechesa@gmail.com</span>
                     </div>
                 </div>
                 <div class="flex items-center">
@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                     <div>
                     <span class="sm:text-lg text-gray-500">Phone</span>
-                    <span class="block text-lg sm:text-2xl font-semibold text-gray-900">+254 7041 97625</span>
+                    <span class="block text-lg sm:text-2xl font-semibold text-gray-900">+254759694831</span>
                     </div>
                 </div>
                 </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                             <span>Full Name</span>
                             <span class="text-red-600">*</span>
                             </label>
-                            <input class="w-full py-3 px-4 text-sm text-gray-900 placeholder-gray-400 border border-gray-200 focus:border-purple-500 focus:outline-purple rounded-lg" type="text" placeholder="Jovanca Azalea" name='name' required/>
+                            <input class="w-full py-3 px-4 text-sm text-gray-900 placeholder-gray-400 border border-gray-200 focus:border-purple-500 focus:outline-purple rounded-lg" type="text" placeholder="Type your full name" name='name' required/>
                         </div>
                         </div>
                         <div class="w-full lg:w-1/2 px-4">

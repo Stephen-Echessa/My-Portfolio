@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram, FaLinkedin, FaGithub, FaDiscord } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import logo from '../assets/logo.png'
 
@@ -8,7 +8,7 @@ const getGreeting = () => {
   const hour = new Date().getHours();
   if (hour >= 5 && hour < 12) {
     return 'Good morning';
-  } else if (hour >= 12 && hour < 18) {
+  } else if (hour >= 12 && hour < 16) {
     return 'Good afternoon';
   } else {
     return 'Good evening';
@@ -36,16 +36,18 @@ const Home = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-black/50'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-white'>
           <h1 className='text-2xl'>{greeting}</h1>
-          <h1 className='sm:text-5xl text-4xl font-bold text-gray-300'>I'm Albanus Mutua</h1>
+          <h1 className='sm:text-5xl text-4xl font-bold text-gray-300'>I'm Stephen Echessa</h1>
           <h2 className='flex sm:text-3xl text-2xl'>
-            I'm a
+            I'm
             <TypeAnimation
               sequence={[
-                'Web Developer',
+                'a Data Scientist',
                 2000,
-                'Python programmer',
+                'a Machine Learning Engineer',
                 2000,
-                'Tech Enthusiast',
+                'an AI Solutions Developer',
+                2000,
+                'a Python Programmer',
                 2000,
               ]}
               wrapper='span'
@@ -60,17 +62,17 @@ const Home = () => {
             />
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <a href="https://x.com/al_bi_e?t=7D47Q67f6hwmHTK7TtU3TA&s=09" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/chescore254?t=w0kmkB-FlHQND60oAnsXGg&s=09" target="_blank" rel="noopener noreferrer">
               <FaXTwitter className='cursor-pointer hover:text-blue-400' size={20}/>
             </a>
-            <a href="https://github.com/albanusCode" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Stephen-Echessa" target="_blank" rel="noopener noreferrer">
               <FaGithub className='cursor-pointer hover:text-gray-600' size={20} />
             </a>
-            <a href="https://discord.com/users/1028542055493935145" target="_blank" rel="noopener noreferrer">
-              <FaDiscord className='cursor-pointer hover:text-red-400' size={20} />
-            </a>
-            <a href="https://www.linkedin.com/in/albanus-mutua-67a3a021b" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/stephen-echessa-621906262/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className='cursor-pointer hover:text-blue-400' size={20} />
+            </a>
+            <a href="https://medium.com/@stevechesa" target="_blank" rel="noopener noreferrer">
+              <FaMedium className='cursor-pointer hover:text-blue-400' size={20} />
             </a>
           </div>
         </div>
