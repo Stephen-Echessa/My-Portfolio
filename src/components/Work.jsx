@@ -3,10 +3,16 @@ import WorkItem from './WorkItem';
 
 const data = [
     {
-        year: 'August, 2024',
-        title: 'NLP Engineer',
+        year: 'October, 2025',
+        title: 'Data Analyst',
         duration: 'Present',
-        details: 'During my internship at Ebikes Africa, I contributed to the development of an AI-driven WhatsApp chatbot, enhancing customer interaction and support capabilities. Additionally, I conducted extensive research and provided strategic recommendations on emerging technologies and tools, accelerating the project’s completion by 20% and improving overall team productivity'
+        details: 'During my time at Pula Advisors, I collaborated with professionals to map farm polygons across various districts in Uganda using QGIS, successfully and constantly achieving the company’s weekly target of 100,000 farms while enhancing the quality of geospatial analysis. Another main role was analyzing extensive datasets of mapped farms using Python Notebooks and Excel, delivering insights that optimized agricultural insurance offerings and ensured favorable outcomes for smallholder farmers.'
+    },
+    {
+        year: 'August, 2024',
+        title: 'AI Engineer',
+        duration: 'March, 2025',
+        details: 'During my tenure at Ebikes Africa, I led the development of an AI-driven WhatsApp chatbot, enhancing customer interaction and support capabilities. Additionally, I deployed robust web applications and the AI assistant to AWS, while still leveraging MySQL and PostgresSQL for data storage and memory management. Another role was conducting extensive research and provided strategic recommendations on emerging technologies and tools, accelerating the project’s completion by 20% and improving overall team productivity.'
     
     },
     {
