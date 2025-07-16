@@ -3,9 +3,15 @@ import WorkItem from './WorkItem';
 
 const data = [
     {
+        year: 'May 2025',
+        title: 'Quality Assurance Engineer',
+        duration: 'Present',
+        details: "During my time at Zynamis as a QA Engineer, I developed over 40 automated test cases using WebdriverIO, which has helped uncover more than 10 critical UI and functionality issues. I also performed manual testing on key modules, logging over 20 actionable bugs in Jira that significantly improved the team's response time and issue resolution"
+    },    
+    {
         year: 'October, 2025',
         title: 'Data Analyst',
-        duration: 'Present',
+        duration: '9 months',
         details: 'During my time at Pula Advisors, I collaborated with professionals to map farm polygons across various districts in Uganda using QGIS, successfully and constantly achieving the company’s weekly target of 100,000 farms while enhancing the quality of geospatial analysis. Another main role was analyzing extensive datasets of mapped farms using Python Notebooks and Excel, delivering insights that optimized agricultural insurance offerings and ensured favorable outcomes for smallholder farmers.'
     },
     {

@@ -35,6 +35,11 @@ const Home = () => {
       />
       <div className='w-full h-screen absolute top-0 left-0 bg-black/50'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-white'>
+          {/* Profile Image */}
+            <img
+              src="/Stephen%20Echessa.jpg" // Place your image in /public or import it
+              className="w-32 h-32 rounded-full object-cover border-2 border-white mb-4"
+            />
           <h1 className='text-2xl'>{greeting}</h1>
           <h1 className='sm:text-5xl text-4xl font-bold text-gray-300'>I'm Stephen Echessa</h1>
           <h2 className='flex sm:text-3xl text-2xl'>
@@ -47,7 +52,7 @@ const Home = () => {
                 2000,
                 'an AI Solutions Developer',
                 2000,
-                'a Python Programmer',
+                'a QA Engineer',
                 2000,
               ]}
               wrapper='span'
