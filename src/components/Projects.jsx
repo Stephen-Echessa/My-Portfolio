@@ -25,7 +25,7 @@ const projectList = [
   },
   {
     img: scraper,
-    title: 'Scrapy with Apache Kafka',
+    title: 'Real-Time Property Data Pipeline',
     language: 'Scrapy, Apache Kafka, MySQL',
     link: 'https://github.com/Stephen-Echessa/Web-Scraping-with-Scrapy-Kafka-and-MySQL'
   }

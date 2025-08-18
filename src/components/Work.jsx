@@ -17,7 +17,7 @@ const data = [
     {
         year: 'August, 2024',
         title: 'AI Engineer',
-        duration: 'March, 2025',
+        duration: '8 months',
         details: 'During my tenure at Ebikes Africa, I led the development of an AI-driven WhatsApp chatbot, enhancing customer interaction and support capabilities. Additionally, I deployed robust web applications and the AI assistant to AWS, while still leveraging MySQL and PostgresSQL for data storage and memory management. Another role was conducting extensive research and provided strategic recommendations on emerging technologies and tools, accelerating the project’s completion by 20% and improving overall team productivity.'
     
     },
