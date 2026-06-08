@@ -46,13 +46,11 @@ const Home = () => {
             I'm
             <TypeAnimation
               sequence={[
+                'an AI Engineer',
+                2000,
                 'a Data Scientist',
                 2000,
-                'a Machine Learning Engineer',
-                2000,
-                'an AI Solutions Developer',
-                2000,
-                'a QA Engineer',
+                'a Web Developer ',
                 2000,
               ]}
               wrapper='span'

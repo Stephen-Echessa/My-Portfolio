@@ -2,7 +2,7 @@ import React from 'react';
 import chatbot from '../assets/chatbot.png';
 import property from '../assets/property.png';
 import scraper from '../assets/scraper.png';
-import sentiment from '../assets/sentiment.png';
+import lyrai from '../assets/lyrai.png';
 
 const projectList = [
   {
@@ -18,10 +18,10 @@ const projectList = [
     link: 'https://huggingface.co/spaces/chescore/Nairobi-Property-Price-Predictor'
   },
   {
-    img: sentiment,
-    title: 'Sentiment Analyzer',
-    language: 'Python, Bert Transformer',
-    link: 'https://stevechesa-movie-review-sentiment-analyzer.streamlit.app/'
+    img: lyrai,
+    title: 'Music AI Analyzer Platform',
+    language: 'Python, Langgraph, Gemini',
+    link: 'https://github.com/Stephen-Echessa/lyrai'
   },
   {
     img: scraper,
