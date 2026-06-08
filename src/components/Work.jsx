@@ -4,7 +4,7 @@ import WorkItem from './WorkItem';
 const data = [
     {
         year: 'May 2025',
-        title: 'Quality Assurance Engineer',
+        title: 'AI Automation Engineer',
         duration: 'Present',
         details: "During my time at Zynamis as an AI Engineer, I built an AI-driven chatbot for Pesha, an expense management platform, delivering real-time financial insights and automated report generation. I also engineered an AI-powered geek culture trivia platform for MovieJabber using context-aware prompting and RAG to accelerate generation and support community customization. Alongside this, I developed and executed over 100 automated test scripts, uncovering more than 300 critical UI and functionality issues across clients such as Century Cinemax, Watu Credit, and Cars 360."
     },    
