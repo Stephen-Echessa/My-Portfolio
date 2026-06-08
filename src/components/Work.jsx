@@ -6,7 +6,7 @@ const data = [
         year: 'May 2025',
         title: 'Quality Assurance Engineer',
         duration: 'Present',
-        details: "During my time at Zynamis as a QA Engineer, I developed over 40 automated test cases using WebdriverIO, which has helped uncover more than 10 critical UI and functionality issues. I also performed manual testing on key modules, logging over 20 actionable bugs in Jira that significantly improved the team's response time and issue resolution"
+        details: "During my time at Zynamis as an AI Engineer, I built an AI-driven chatbot for Pesha, an expense management platform, delivering real-time financial insights and automated report generation. I also engineered an AI-powered geek culture trivia platform for MovieJabber using context-aware prompting and RAG to accelerate generation and support community customization. Alongside this, I developed and executed over 100 automated test scripts, uncovering more than 300 critical UI and functionality issues across clients such as Century Cinemax, Watu Credit, and Cars 360."
     },    
     {
         year: 'October, 2025',
